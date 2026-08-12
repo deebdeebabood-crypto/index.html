@@ -1,0 +1,614 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+     font-family: 'Poppins', sans-serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     scroll-behavior: smooth;
+}
+
+header{
+    background-color: #F3E9D2;
+    width: 100%;
+    position: fixed;
+    z-index:999 ;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding:10px 100px; 
+}
+
+.logo{
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 1.8em;
+}
+
+
+.navigation a{
+    color: #000;
+    text-decoration:none;
+    font-size: 1.2em;
+    font-weight: 200;
+padding-right: 13px;
+}
+
+.navigation a:hover{
+    color: #B91C1C;
+}
+
+section {
+    padding: 100px 50px;
+}
+
+.main{
+    width: 100%;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    padding:0 100px;
+    background-image:url("images/شعار\ 2.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:100%;
+}
+
+.main h2{
+color: #fff;
+font-size: 1.4em;
+font-weight: 500;
+}
+
+.main h2 span{
+    display: inline-block;
+color: rgb(175, 201, 212);
+font: size 3em; ;
+font-weight: 600;
+}
+
+.main h3 {
+    color: #fff;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom:30px ;
+}
+
+.main-btn{
+   background:#B91C1C;
+    color:#fff;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition:0.7s ease ;
+}
+
+
+.main-btn:hover {
+    background:#B91C1C;
+    transform: scale(1.1);
+}
+
+.social-icons a{
+    color: #fff;
+    font-size: 1.7em;
+    padding-right: 30px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color: #1E293B;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.content {
+display: flex;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+}
+.card {
+    background-color: #F3E9D2;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15px);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+        transition:0.7s ease ;
+
+}
+
+.card:hover{
+        transform: scale(1.1);
+}
+
+.icon{
+    color: #8f8e8e;
+    font-size:8em ;
+    text-align: center;
+}
+.card {
+    text-decoration: none;
+    color: inherit;
+}
+.info{
+    text-align: center;
+}
+.info h3 {
+    color: #000;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.عروض{
+    background-color:#F3E9D2;
+}
+
+.عروض .content{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.عروض-card{
+    background-color: #F3E9D2;
+    border: 1px solid #fff;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.عروض-card:hover{
+    transform: scale(1.1);
+}
+
+.عروض-image{
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+}
+
+.عروض-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.عروض-info{
+    padding: 1em;
+}
+
+.عروض-category{
+    font-size: 0.8em;
+    color: #000;
+}
+
+.عروض-title{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details{
+    text-decoration: none;
+    color:#000;
+}
+
+.more-details:hover{
+    color: #000;
+}
+
+.نظارات-شمسية{
+    background-color: #F3E9D2;;
+}
+
+.نظارات-شمسية .content{
+    margin: 30px;
+}
+
+.نظارات-شمسية-card{
+    background-color: #F3E9D2;
+    border: 1px solid #FFFFFF;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.نظارات-شمسية-card:hover{
+    transform: scale(1.1);
+}
+
+.نظارات-شمسية-image{
+    width: 100%;
+    height: 260px; 
+    overflow: hidden;
+}
+
+.نظارات-شمسية-image img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    display: block;
+}
+
+.نظارات-شمسية-info{
+   padding: 1em; 
+}
+
+.نظارات-شمسية-category{
+    font: size 0.8em; 
+    color: #000;
+}
+
+.نظارات-شمسية-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.نظارات{
+    text-decoration: none;
+    color: #000;
+}
+
+.نظارات:hover{
+    color:#000;
+}
+
+.نظارات-طبية{
+    background-color: #F3E9D2;;
+}
+
+.نظارات-طبية .content{
+    margin: 30px;
+}
+
+.نظارات-طبية-card{
+    background-color: #F3E9D2;
+    border: 1px solid #FFFFFF;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.نظارات-طبية-card:hover{
+    transform: scale(1.1);
+}
+
+.نظارات-طبية-image{
+    width: 100%;
+    height: 260px; 
+    overflow: hidden;
+}
+
+.نظارات-طبية-image img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    display: block;
+}
+
+.نظارات-طبية-info{
+   padding: 1em; 
+}
+
+.نظارات-طبية--category{
+    font-size: 0.8em;
+    color: #000;
+}
+.نظارات-طبية-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.نظارات-طبية-{
+    text-decoration: none;
+    color: #000;
+}
+
+.نظارات:hover{
+    color:#000;
+}
+
+
+.عدسات{
+    background-color: #F3E9D2;;
+}
+
+.عدسات .content{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.عدسات-card{
+    background-color: #F3E9D2;
+    border: 1px solid #FFFFFF;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.عدسات-card:hover{
+    transform: scale(1.1);
+}
+
+.عدسات-image{
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+}
+
+.عدسات-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.عدسات-info{
+    padding: 1em;
+}
+
+.عدسات-category{
+    font-size: 0.8em;
+    color: #000;
+}
+
+.عدسات-title{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details{
+    text-decoration: none;
+    color: #000;
+}
+
+.more-details:hover{
+    color: #000;
+}
+
+
+
+.نظارات-طبية{
+    background-color: #F3E9D2;;
+}
+
+.نظارات-طبية .content{
+    margin: 30px;
+}
+
+.نظارات-طبية-card{
+    background-color: #F3E9D2;
+    border: 1px solid #FFFFFF;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.نظارات-طبية-card:hover{
+    transform: scale(1.1);
+}
+
+.نظارات-طبية-image{
+    width: 100%;
+    height: 260px; 
+    overflow: hidden;
+}
+
+.نظارات-طبية-image img{
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+    display: block;
+}
+
+.نظارات-طبية-info{
+   padding: 1em; 
+}
+
+.نظارات-طبية--category{
+    font-size: 0.8em;
+    color: #000;
+}
+.نظارات-طبية-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.نظارات-طبية-{
+    text-decoration: none;
+    color: #000;
+}
+
+.نظارات:hover{
+    color:#000;
+}
+
+
+
+
+
+.Feedback{
+    background-color: #F3E9D2;;
+}
+
+.Feedback .content{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Feedback-card{
+    background-color: #F3E9D2;
+    border: 1px solid #000;
+    width: 1000px;
+    height: 160px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+
+.Feedback-card:hover{
+    transform: scale(1.05);
+}
+
+.Feedback-image{
+    width: 100%;
+    height: 90px;
+    overflow: hidden;
+}
+
+.Feedback-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.Feedback-info{
+    padding: 10px;
+}
+
+.Feedback-category{
+    font-size: 0.8em;
+    color: #000;
+}
+
+.Feedback-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.Feedback-{
+    text-decoration: none;
+    color: #000;
+}
+
+.Feedback:hover{
+    color:#000;
+}
+
+.تواصل-معنا .icon{
+    font-size: 4.5em;
+}
+
+.تواصل-معنا .info h3{
+ color: #000;
+}
+
+.تواصل-معنا .info p{
+    font-size: 1.5em;
+}
+.تواصل-معنا .content{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.footer{
+    background-color: #F3E9D2;;
+    color: #000000;
+    padding: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-titel{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.footer-titel span{
+    color:#000
+}
+
+.footer-social-icons a{
+font-size: 1.3em;
+padding:0 12px 0 0;
+}
+
+
+@media (max-width:1023px) {
+    header{
+        pad: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+    .section{
+      padding: 80px 20px;  
+    }
+    
+    .main-content h2{
+        font-size: 1em;
+    }
+     .main-content h3{
+  font-size: 1.6em;
+}
+
+.content{
+flex-direction:column;
+align-items: center;
+}
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    background:#000000;
+    }
+    
+}
+img{max-width:100%;height:auto}html,body{overflow-x:hidden}.Feedback-card{max-width:100%;width:1000px}@media(max-width:768px){header{padding:10px 15px;flex-direction:column}.main{padding:20px;background-size:cover}.card,.عروض-card,.نظارات-شمسية-card,.نظارات-طبية-card,.عدسات-card,.Feedback-card{width:95%!important}.footer{flex-direction:column;gap:15px;text-align:center}section{padding:80px 15px}}@media(max-width:480px){.navigation a{font-size:1em;padding:5px}.main h2{font-size:1.2em}.main h3{font-size:1.6em}.main-btn{font-size:1em}.social-icons a{font-size:1.3em}}
